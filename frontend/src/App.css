@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.App {
+  text-align: center;
+  background-color: #171E30;
+  min-height: 100vh;
+}
+
+.label-text{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  color :#0DFFA4;
+  margin-bottom: 20px;
+}
+
+.label-button{
+  background-color: #0DFFA4;
+padding: 15px;
+font-size: 17px;
+border-radius: 30px;
+/* text-align: left; */
+
+
+}
+
+.preview-text{
+  color:white;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+.datat-fetch{
+  align-self: initial;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.preview-image{
+  /* margin-top: 10px; */
+  height: 40vh;
+  width: 60vw;
+  border-radius: 20px;
+}
+
+button.btn.btn-primary {
+  outline: none;
+}
+
+.a,.a:focus,.a:active{
+  outline: none;
+}
+
+.label-button:active, .label-button:focus,.label-text:active, .label-text:focus{
+  outline: none !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
